@@ -1,0 +1,49 @@
+Decidi criar 4 tabelas. Em uma(pessoaP) irei armazenar entre 10mil a 15mil,  na segunda 100Mil(pessoaM), na terceira 1Mi(pessoaG), na quarta 1Bi(pessoaBG)
+
+CREATE TABLE pessoaBG (
+  id int auto_increment primary key not null,
+  estado varchar(2) not null,
+  cor varchar(6) not null,
+  nome varchar(30) not null,
+  idade int not null,
+  sobrenome varchar(70) not null,
+  empregoArea bool not null,
+  sexo varchar(1) not null,
+  formacao varchar(20) not null
+);
+
+CREATE TABLE pessoaG (
+  id int auto_increment primary key not null,
+  estado varchar(2) not null,
+  cor varchar(6) not null,
+  nome varchar(30) not null,
+  idade int not null,
+  sobrenome varchar(70) not null,
+  empregoArea bool not null,
+  sexo varchar(1) not null,
+  formacao varchar(20) not null
+);
+
+CREATE TABLE pessoaM (
+  id int auto_increment primary key not null,
+  estado varchar(2) not null,
+  cor varchar(6) not null,
+  nome varchar(30) not null,
+  idade int not null,
+  sobrenome varchar(70) not null,
+  empregoArea bool not null,
+  sexo varchar(1) not null,
+  formacao varchar(20) not null
+);
+
+CREATE TABLE pessoaP (
+  id int auto_increment primary key not null,
+  estado varchar(2) not null,
+  cor varchar(6) not null,
+  nome varchar(30) not null,
+  idade int not null,
+  sobrenome varchar(70) not null,
+  empregoArea bool not null,
+  sexo varchar(1) not null,
+  formacao varchar(20) not null
+);

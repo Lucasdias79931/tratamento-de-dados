@@ -1,0 +1,3 @@
+class Coketa():
+    def __init__(self):
+        ...
